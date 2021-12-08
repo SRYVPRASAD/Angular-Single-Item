@@ -1,0 +1,16 @@
+
+.button {
+
+    width: 10rem;
+    height: 3rem;
+    font-size: 1rem;
+    color: #f4f4f4f4;
+    background-color:#1a6ed1;
+}
+#icon{
+    padding-left:1.5rem;
+    display: inline;
+    font-size: 1.5rem;
+    color: #f4f4f4f4;
+
+}

@@ -1,0 +1,5 @@
+<mat-card class="brand-box" >  
+  <img mat-card-image src={{brand.imageUrl}} alt={{brand.imageAlt}}>   
+ <mat-card-content> <h2>{{brand.title}}</h2></mat-card-content>         
+<mat-card-content *ngFor ="let item of items"><button mat-raised-button class="button" >{{item}}</button></mat-card-content>
+</mat-card>

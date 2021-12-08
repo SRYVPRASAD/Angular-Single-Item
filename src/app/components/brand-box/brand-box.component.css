@@ -1,0 +1,19 @@
+.brand-box {margin: 20px;
+ text-align: center;
+ width: 200px;
+background-color: #ffffff;
+overflow:auto;
+}
+
+img{
+    margin: .4rem;
+    padding: 30px  ;
+}
+
+.button {
+    width: 10rem;
+    height: 3rem;
+    font-size: 0.8rem;
+    color: #f4f4f4f4;
+    background-color:#1a6ed1;
+}

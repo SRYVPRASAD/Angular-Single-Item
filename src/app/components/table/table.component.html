@@ -1,0 +1,13 @@
+<table mat-table [dataSource]="dataSource" class="mat-elevation-z8 demo-table">
+  <!-- Name Column -->
+  <ng-container matColumnDef="info">
+    <td mat-cell  class="info" *matCellDef="let element">{{ element.info }}</td>
+  </ng-container>
+
+  <!-- Symbol Column -->
+  <ng-container matColumnDef="details"  >
+    <td mat-cell class="details" *matCellDef="let element">{{ element.details }}</td>
+  </ng-container>
+
+  <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+</table>

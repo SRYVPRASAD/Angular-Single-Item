@@ -1,0 +1,19 @@
+.card {
+   margin-left: 20px;
+   box-shadow: none;
+   width: 100px;
+   background-color: #f4f4f4;
+}
+.content{
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #f4f4f4;
+ 
+}
+.grid{
+  background-color: red;
+}
+
